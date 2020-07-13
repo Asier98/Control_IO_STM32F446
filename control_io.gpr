@@ -13,7 +13,7 @@ library project Control_Io is
    for Create_Missing_Dirs use "True";
 
    package Builder is
-      for Global_Configuration_Pragmas use "../Ada_Drivers_Library/examples/shared/serial_ports/gnat.adc";
+      for Global_Configuration_Pragmas use "../../Ada_Drivers_Library/examples/shared/serial_ports/gnat.adc";
    end Builder;
 
    package Compiler renames STM32F407_Discovery_Full.Compiler;
